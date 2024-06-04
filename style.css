@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Post-Header{
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: ;
+    border-bottom: 1px ;
+    justify-content: space-between;
+}
+.Upload{ 
+    background-color: white;
+    width: 420px;
+    
+}
+.header{
+    display: flex;
+}
