@@ -1,25 +1,56 @@
 body{
-    background-color: black;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
     margin: 0;
     padding: 0;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: 100vh;
 }
 .Post-Header{
     display: flex;
-    align-items: center;
-    padding: 10px 16px;
-    background-color: ;
-    border-bottom: 1px ;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.icons-left{
+    display: flex;
+    align-items: center;
+}
+.icons-right{
+    margin-right: 0px;
 }
 .Upload{ 
     background-color: white;
     width: 420px;
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
 }
 .header{
     display: flex;
+}
+.Footer-Icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.Footer-Comments{
+    padding: 5px;
+}
+.Post-Image{
+    position: relative;
+}
+.names {
+    padding-left: 20px;
+}
+.names h5 {
+    margin: 0;
+    font-size: 16px;
+}
+.names p {
+    margin: 0;
+    font-size: 14px;
 }
